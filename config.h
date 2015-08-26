@@ -647,25 +647,25 @@
 /* #undef SANE_MALLOC_PROTOS */
 
 /* The size of `char', as computed by sizeof. */
-#define SIZEOF_CHAR 1
+#define SIZEOF_CHAR (sizeof(char))
 
 /* The size of `int', as computed by sizeof. */
-#define SIZEOF_INT 4
+#define SIZEOF_INT (sizeof(int))
 
 /* The size of `long', as computed by sizeof. */
-#define SIZEOF_LONG 4
+#define SIZEOF_LONG (sizeof(long))
 
 /* The size of `long long', as computed by sizeof. */
-#define SIZEOF_LONG_LONG 8
+#define SIZEOF_LONG_LONG (sizeof(long long))
 
 /* The size of `short', as computed by sizeof. */
-#define SIZEOF_SHORT 2
+#define SIZEOF_SHORT (sizeof(short))
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 4
+#define SIZEOF_SIZE_T (sizeof(size_t))
 
 /* The size of `void *', as computed by sizeof. */
-#define SIZEOF_VOID_P 4
+#define SIZEOF_VOID_P (sizeof(void *))
 
 /* The size of `__int64', as computed by sizeof. */
 #define SIZEOF___INT64 0
